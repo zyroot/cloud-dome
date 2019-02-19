@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
 
     @Autowired
-    private UserService userMapper;
+    private UserService userservice;
 
 
     @GetMapping("/{id}")
     public User getUser(@PathVariable(name = "id")int id){
-        User user = userMapper.getUser(id);
+        User user = userservice.getUser(id);
         System.out.println(user.toString());
         return user;
     }

@@ -15,7 +15,7 @@ import java.util.Date;
 @Entity
 @DynamicUpdate
 @Table(name = "user")
-@JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
+//@JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
 public class User  {
 
 //    private static final long serialVersionUID = 1L;

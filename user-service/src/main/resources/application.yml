@@ -9,5 +9,3 @@ spring:
     password: 123456
   mvc:
     date-format: yyyy-MM-dd
-mybatis:
-  type-aliases-package: cn.ticast.book.pojo
