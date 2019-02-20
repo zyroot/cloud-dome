@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-dome.iml" filepath="$PROJECT_DIR$/cloud-dome.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumerdome/consumerdome.iml" filepath="$PROJECT_DIR$/consumerdome/consumerdome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
     </modules>
   </component>
