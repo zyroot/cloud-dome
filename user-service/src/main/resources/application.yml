@@ -7,8 +7,6 @@ spring:
     url: jdbc:mysql://111.231.221.220:4406/db_make_well_mysql
     username: root
     password: 123456
-  mvc:
-    date-format: yyyy-MM-dd
 #注册时的名字
   application:
     name: user-service
@@ -16,4 +14,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
+      defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka

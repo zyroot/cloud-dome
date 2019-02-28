@@ -12,6 +12,7 @@
         <module>consumerdome</module>
         <module>eureka-server</module>
         <module>eureka-server</module>
+        <module>gateway</module>
     </modules>
     <packaging>pom</packaging>
 

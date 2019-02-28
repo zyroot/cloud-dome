@@ -1,0 +1,16 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: api-gateway
+#路由规则
+zuul:
+  routes:
+    user-service: /userap/**
+  ignored-services:
+    - consumer-dome
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+
